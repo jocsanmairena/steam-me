@@ -29,8 +29,10 @@ export default function MyApp({ Component, pageProps }) {
 
 
 /*
-DOCUMENTATION
-OVERWRITING DEFUALT APP COMPONENT
+DOCUMENTATION:
+-------------
+
+OVERWRITING DEFUALT APP COMPONENT:
 We pass "props" as a argument, but in desconstructable form: { Component, pageProps }.
 Component takes the value of a page defined in the pages folder when you navigate to it.
 We wrap ThemeProvider over the global app Component( Some page ) to apply global theme styles.
