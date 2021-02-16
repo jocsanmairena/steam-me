@@ -31,3 +31,6 @@ export const ObjectIdScalar = new GraphQLScalarType({
   }
 
 })
+
+
+/* Next: We declare a new interface: MyContext, which will be used to infer the current user's session */
