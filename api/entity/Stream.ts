@@ -33,3 +33,7 @@ export class Stream {
 }
 
 export const StreamModel = getModelForClass(Stream)
+
+/* What is next:
+With User and Stream entities defined we can go on to create a new ObjectID scalar for our schema.
+This "scalar" is specific to MongoDB, because an ObjectId has a unique format, e.g. ObjectId("adaj130jfsdm10"). */
