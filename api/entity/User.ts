@@ -6,7 +6,9 @@ import { prop as Property, getModelForClass } from "@typegoose/typegoose"
 import { ObjectId } from "mongodb"
 import { Field, ObjectType } from "type-graphql"
 
+/* https://typegraphql.com/docs/types-and-fields.html */
 /* We declare objects in our database using the @ObjectType decorator */
+/* @ObjectType decorator marks the class as the type known from the GraphQL SDL or GraphQLObjectType from graphql-js */
 @ObjectType()
 /* The class User defines all the properties that a user contains */
 export class User {
